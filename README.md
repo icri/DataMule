@@ -1,4 +1,4 @@
-muling
+DataMule
 ======
 
 Data muling demo 
