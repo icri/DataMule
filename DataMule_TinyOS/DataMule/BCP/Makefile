@@ -1,0 +1,8 @@
+COMPONENT=BcpC
+//CFLAGS += -I$(TOSDIR)/lib/printf
+CFLAGS += -I$(TOSDIR)/lib/net
+CFLAGS += -I ./
+PFLAGS += -DCC2420_DEF_RFPOWER=3
+
+include $(MAKERULES)
+

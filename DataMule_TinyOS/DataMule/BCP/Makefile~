@@ -1,0 +1,7 @@
+COMPONENT=BcpC
+//CFLAGS += -I$(TOSDIR)/lib/printf
+CFLAGS += -I$(TOSDIR)/lib/net
+CFLAGS += -I ./
+
+include $(MAKERULES)
+

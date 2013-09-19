@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Data Mule</string>
+    <string name="action_settings">Settings</string>
+    <string name="open_uart">Open UART</string>
+    <string name="close_uart">Close UART</string>
+    <string name="port_number">Port Number</string>
+    <string name="configure_uart">Configure UART</string>
+    <string name="baud_rate_">Baud Rate</string>
+    <string name="stop_bits">Stop Bits</string>
+    <string name="data_bits">Data Bits</string>
+    <string name="parity">Parity</string>
+    <string name="flow_control">Flow Control</string>
+    <string name="incoming_data">Incoming data</string>
+    <string name="disable_data_download">Disable Data Download</string>
+    <string name="open_bluetooth">Open Bluetooth</string>
+    <string name="close_bluetooth">Close Bluetooth</string>
+    <string name="outgoing_data">Outgoing data</string>
+    <string name="disable_data_upload">Enable Data Upload</string>
+    <string name="buffer_status">Internal buffer status</string>
+    
+    <string-array name="baud_rate">
+		<item>300</item>        
+		<item>600</item>        
+		<item>1200</item>        
+		<item>4800</item>        
+		<item>9600</item>        
+		<item>19200</item>        
+		<item>38400</item>        
+		<item>57600</item>
+		<item>115200</item>
+		<item>230400</item>    
+		<item>460800</item>
+		<item>921600</item>	
+	</string-array>
+	
+	<string-array name="stop_bits">        
+		<item>1</item>        
+		<item>2</item>        
+	</string-array>
+		
+	<string-array name="data_bits">        
+		<item>7</item>        
+		<item>8</item>        
+	</string-array>
+	
+	<string-array name="parity">        
+		<item>none</item>        
+		<item>odd</item>
+		<item>even</item>
+		<item >mark</item>
+		<item >space</item>
+	</string-array>
+	
+	<string-array name="flow_control">        
+		<item>none</item>        
+		<item>CTS/RTS</item>
+		<item>DTR/DSR</item>
+		<item>XOFF/XON</item>
+	</string-array>
+	
+	<string-array name="port_list_1">        
+		<item>1</item>
+	</string-array>
+
+	<string-array name="port_list_2">        
+		<item>1</item>
+		<item>2</item>
+	</string-array>
+	
+	<string-array name="port_list_4">        
+		<item>1</item>
+		<item>2</item>
+		<item>3</item>
+		<item>4</item>
+	</string-array>
+    
+</resources>
